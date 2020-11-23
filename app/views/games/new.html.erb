@@ -1,0 +1,14 @@
+<h1>New Game</h1>
+<div class="letters">
+  <% @letters.each do |letter| %>
+    <div class="card-letter"><p><%=letter%></p></div>
+  <%end%>
+</div>
+
+<div class="container">
+  <p>What is the longest word you can find</p>
+  <form action="/score" method="post">
+    <input type="text" name="attempt" class="attempt">
+    <input type="submit" class="btn-submit" value="Play">
+  </form>
+</div>
