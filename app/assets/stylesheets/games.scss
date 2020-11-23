@@ -65,3 +65,25 @@ form {
     }
   }
 }
+
+.result {
+  margin-left: 2rem;
+}
+
+p {
+  font-size: 2rem;
+  display:inline-block;
+  margin-left: 2rem;
+}
+
+a{
+  text-decoration: none;
+  font-size: 2rem;
+  color: gray;
+  display: inline-block;
+  margin-left: 2rem;
+
+  &:hover {
+    color: black;
+  }
+}
